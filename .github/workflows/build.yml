@@ -23,7 +23,7 @@ jobs:
     env:
       VENDOR: xiaomi
       DEVICE: santoni
-      ANDROID_ROOT: /home/runner/work/halium/
+      ANDROID_ROOT: /home/runner/halium/
 
     steps:
     - name: Checkout
