@@ -57,6 +57,7 @@ jobs:
     
     - name: Build HAL
       run: |
+        cd ~/halium
         source build/envsetup.sh
         breakfast santoni
       shell: bash
