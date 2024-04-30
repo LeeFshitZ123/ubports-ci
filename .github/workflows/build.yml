@@ -53,7 +53,7 @@ jobs:
         mkdir halium && cd halium
         repo init -u https://github.com/Halium/android -b halium-7.1 --depth=1
         repo sync -c -j 16
-        bash devices/setup santoni
+        bash halium/devices/setup santoni
     
     - name: Build HAL
       run: |
